@@ -15,7 +15,7 @@ const Navbar = ({ className }: { className?: string }) => {
           <MenuItem
             setActive={setActive}
             active={active}
-            item="home"
+            item="Home"
           ></MenuItem>
         </HoveredLink>
         <HoveredLink href="/courses">
