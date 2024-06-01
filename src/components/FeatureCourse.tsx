@@ -1,6 +1,7 @@
 import Link from "next/link";
 import courseData from "../data/music-data.json";
 
+
 interface Course {
   id: number;
   title: string;
@@ -12,7 +13,7 @@ interface Course {
 
 }
 const FeatureCourse = () => {
-  courseData.courses.filter((course:Course) => course.isFeatured);
+ const  featureCourse =courseData.courses.filter((course:Course) => course.isFeatured);
 
   return (
     <div className="py-12 bg-gray-900">
