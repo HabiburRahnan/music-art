@@ -1,6 +1,7 @@
 import HeroSection from "@/components/HeroSection";
 import FeatureCourse from "@/components/FeatureCourse";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import MovingCards from "@/components/MovingCards";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <HeroSection></HeroSection>
       <FeatureCourse></FeatureCourse>
       <WhyChooseUs></WhyChooseUs>
+      <MovingCards></MovingCards>
     </main>
   );
 }
