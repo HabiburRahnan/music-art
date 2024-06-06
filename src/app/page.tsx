@@ -16,6 +16,7 @@ export default function Home() {
       <MovingCards></MovingCards>
       <UpcomingWebinars></UpcomingWebinars>
       <Instractors></Instractors>
+      
       <Footer></Footer>
     </main>
   );
