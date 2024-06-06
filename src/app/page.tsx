@@ -3,6 +3,7 @@ import FeatureCourse from "@/components/FeatureCourse";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import MovingCards from "@/components/MovingCards";
 import UpcomingWebinars from "@/components/UpcomingWebinars";
+import Instractors from "@/components/Instractors";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <WhyChooseUs></WhyChooseUs>
       <MovingCards></MovingCards>
       <UpcomingWebinars></UpcomingWebinars>
+      <Instractors></Instractors>
     </main>
   );
 }
