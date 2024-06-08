@@ -5,12 +5,14 @@ import MovingCards from "@/components/MovingCards";
 import UpcomingWebinars from "@/components/UpcomingWebinars";
 import Instractors from "@/components/Instractors";
 import Footer from "@/components/Footer";
+import BackgroundBoxes from "@/components/BackgroundBoxes";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.2] text-white">
 
       <HeroSection></HeroSection>
+    <BackgroundBoxes></BackgroundBoxes>
       <FeatureCourse></FeatureCourse>
       <WhyChooseUs></WhyChooseUs>
       <MovingCards></MovingCards>
